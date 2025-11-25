@@ -3,6 +3,3 @@
 .terraform.lock.hcl
 # Ignore crash logs
 crash.log
-
-# Ignore backup files
-*.backup
