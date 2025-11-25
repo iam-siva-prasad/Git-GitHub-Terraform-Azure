@@ -12,11 +12,17 @@ resource "azuread_user" "user2" {
   force_password_change = true
 }
 
-
-
 resource "azuread_user" "user3" {
   user_principal_name = "Git@76hpc3.onmicrosoft.com"
   display_name        = "Git"
   password            = "ComplexPassword123!"
   force_password_change = true
 }
+
+resource "azuread_user" "user4" {
+  user_principal_name = "user4@76hpc3.onmicrosoft.com"
+  display_name        = "user4"
+  password            = "ComplexPassword123!"
+  force_password_change = true
+}
+
