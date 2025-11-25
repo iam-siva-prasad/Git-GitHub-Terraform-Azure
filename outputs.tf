@@ -1,41 +1,33 @@
- output "user_principal_name_user1" {
-     value = azuread_user.user1.user_principal_name  
- }
-
- output "user_object_id_user1" {
-
-   value = azuread_user.user1.object_id
-  
- }
-
-
-output "user_principal_name_user2" {
-    value = azuread_user.user2.user_principal_name   
+output "user_principal_name_user5" {
+    value = azuread_user.user5.user_principal_name   
 }
 
-output "user_object_id_user2" {
+output "user_object_id_user5" {
 
-  value = azuread_user.user2.object_id
+  value = azuread_user.user5.object_id
   
 }
 
-output "user_principal_name_user3" {
-    value = azuread_user.user3.user_principal_name   
+output "user_principal_name_user6" {
+    value = azuread_user.user6.user_principal_name   
 }
 
-output "user_object_id_user3" {
+output "user_object_id_user6" {
 
-  value = azuread_user.user3.object_id
+  value = azuread_user.user6.object_id
   
 }
 
-output "user_principal_name_user4" {
-    value = azuread_user.user4.user_principal_name   
+
+output "user_principal_name_user7" {
+    value = azuread_user.user7.user_principal_name   
 }
 
-output "user_object_id_user4" {
+output "user_object_id_user7" {
 
-  value = azuread_user.user4.object_id
+  value = azuread_user.user7.object_id
   
 }
+
+
 
