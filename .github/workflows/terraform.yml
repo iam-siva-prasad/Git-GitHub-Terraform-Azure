@@ -1,5 +1,5 @@
 
-name: Terraform-Azure-Deployment
+name: Terraform-AzureAD-Deployment
 
 on:
   push:
@@ -12,10 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
-      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
-      ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
-      # ARM_SUBSCRIPTION_ID is optional if your SP has a default subscription
+      TF_VAR_tenant_id: ${{ secrets.tenant_id }}
+      TF_VAR_client_id: ${{ secrets.client_id }}
+      TF_VAR_client_secret: ${{ secrets.client_secret }}
 
     steps:
       - name: Checkout code
