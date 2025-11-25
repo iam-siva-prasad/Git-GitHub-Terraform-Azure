@@ -85,6 +85,8 @@ jobs:
           terraform_version: latest
       - name: Terraform init
         run: terraform init
+      - name: Terraform plan
+        run: terraform plan
       - name: Terraform Apply
         run: terraform apply -auto-approve tfplan
       - name: Terraform Output
