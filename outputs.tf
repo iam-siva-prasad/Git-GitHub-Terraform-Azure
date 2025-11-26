@@ -36,3 +36,12 @@ output "user_object_id_userhari" {
   value = azuread_user.userhari.object_id
   
 }
+
+output "user_principal_name_userhari1" {
+    value = azuread_user.userhari1.user_principal_name   
+}
+
+output "user_object_id_userhari1" {
+  value = azuread_user.userhari1.object_id
+  
+}
