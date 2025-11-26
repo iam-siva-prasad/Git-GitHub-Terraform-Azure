@@ -30,7 +30,7 @@ output "user_object_id_user7" {
 }
 
 
-output "user_principal_name_usersiva" {
+output "user_principal_name_user7" {
     value = azuread_user.usersiva.user_principal_name   
 }
 
