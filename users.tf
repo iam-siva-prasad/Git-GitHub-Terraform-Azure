@@ -25,6 +25,14 @@ resource "azuread_user" "userhari" {
   display_name        = "userharigit"
   password            = "ComplexPassword123!"
   force_password_change = true
+
+  
+lifecycle {
+    ignore_changes = [
+      password,
+      force_password_change
+    ]
+  }
 }
 
 resource "azuread_user" "userhari1" {
@@ -32,4 +40,13 @@ resource "azuread_user" "userhari1" {
   display_name        = "userhari1git"
   password            = "ComplexPassword123!"
   force_password_change = true
+
+  
+lifecycle {
+    ignore_changes = [
+      password,
+      force_password_change
+    ]
+  }
 }
+
