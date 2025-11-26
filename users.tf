@@ -20,9 +20,9 @@ resource "azuread_user" "user7" {
 }
 
 
-resource "azuread_user" "userhari" {
-  user_principal_name = "gituserhari@76hpc3.onmicrosoft.com"
-  display_name        = "userharigit"
+resource "azuread_user" "usersiva" {
+  user_principal_name = "gitusersiva@76hpc3.onmicrosoft.com"
+  display_name        = "usersivagit"
   password            = "ComplexPassword123!"
   force_password_change = true
 
@@ -34,10 +34,9 @@ lifecycle {
     ]
   }
 }
-
-resource "azuread_user" "userhari1" {
-  user_principal_name = "gituserhari1@76hpc3.onmicrosoft.com"
-  display_name        = "userhari1git"
+resource "azuread_user" "usersiva365" {
+  user_principal_name = "gitusersiva365@76hpc3.onmicrosoft.com"
+  display_name        = "usersiva365git"
   password            = "ComplexPassword123!"
   force_password_change = true
 
