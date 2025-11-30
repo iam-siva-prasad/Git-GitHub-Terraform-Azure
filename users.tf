@@ -5,3 +5,4 @@ resource "azuread_user" "user5" {
   force_password_change = true
 }
 
+
