@@ -12,3 +12,10 @@ resource "azuread_user" "user26" {
   password            = "ComplexPassword123!"
   force_password_change = true
 }
+
+resource "azuread_user" "muni" {
+  user_principal_name = "muneendra@76hpc3.onmicrosoft.com"
+  display_name        = "muneendra"
+  password            = "ComplexPassword123!"
+  force_password_change = true
+}
