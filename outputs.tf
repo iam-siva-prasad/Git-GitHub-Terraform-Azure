@@ -18,3 +18,4 @@ output "user_object_id_user26" {
   value = azuread_user.user26.object_id
   
 }
+
